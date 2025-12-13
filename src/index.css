@@ -1,0 +1,5 @@
+#allTask::-webkit-scrollbar,
+#taskList::-webkit-scrollbar {
+  display: none;
+}
+

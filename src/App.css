@@ -1,0 +1,13 @@
+@import "tailwindcss";
+/* global.css or component CSS */
+.select-no-arrow {
+  -webkit-appearance: none; /* Chrome, Safari, Edge */
+  -moz-appearance: none; /* Firefox */
+  appearance: none; /* Standard */
+  background-position: right 0.75rem center; /* Arrow position */
+  background-repeat: no-repeat;
+  background-size: 1.5rem;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='white' height='20' viewBox='0 0 24 24' width='20' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+}
+
+
