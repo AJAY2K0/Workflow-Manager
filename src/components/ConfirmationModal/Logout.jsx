@@ -15,7 +15,7 @@ const Logout = ({ handleLogout, setShowLogoutConfirm,loading }) => {
           <button
             onClick={handleLogout}
             disabled={loading}
-            className={`flex justify-center gap-0 text-sm text-nowrap bg-linear-to-r from-red-600 to-red-500 text-white px-4 py-2 rounded-lg font-medium hover:scale-[1.05] hover:shadow-md hover:shadow-red-500/40 transition-all duration-300 cursor-pointer ${
+            className={`flex justify-center gap-1 text-sm text-nowrap bg-linear-to-r from-red-600 to-red-500 text-white px-4 py-2 rounded-lg font-medium hover:scale-[1.05] hover:shadow-md hover:shadow-red-500/40 transition-all duration-300 cursor-pointer ${
               loading ? "opacity-70 cursor-not-allowed" : "cursor-pointer"
             }`}
           >
