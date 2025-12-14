@@ -1,0 +1,66 @@
+/* Wrap the entire popup */
+.dark-calendar {
+  background: #0d0d0d !important;
+  border: 1px solid #1f1f1f !important;
+  padding: 8px;
+  border-radius: 10px;
+}
+
+/* Header (month area) */
+.dark-calendar .react-datepicker__header {
+  background: #111 !important;
+  border-bottom: 1px solid #222 !important;
+}
+
+/* Month text */
+.dark-calendar .react-datepicker__current-month {
+  color: #00ffaa !important;
+  font-weight: 600;
+}
+
+/* Weekday labels */
+.dark-calendar .react-datepicker__day-names div {
+  color: #888 !important;
+}
+
+/* Days */
+.dark-calendar .react-datepicker__day {
+  color: #eee !important;
+  background: #1a1a1a !important;
+  border-radius: 6px;
+  margin: 2px;
+}
+
+/* Hover effect */
+.dark-calendar .react-datepicker__day:hover {
+  background: #00b68f !important;
+  color: #000 !important;
+}
+
+/* Selected date */
+.dark-calendar .react-datepicker__day--selected {
+  background: #00dba5 !important;
+  color: #000 !important;
+}
+
+/* Today border */
+.dark-calendar .react-datepicker__day--today {
+  border: 1px solid #00dba5 !important;
+}
+/* Dim past days */
+.react-datepicker__day--disabled,
+.react-datepicker__month-text--disabled,
+.react-datepicker__quarter-text--disabled,
+.react-datepicker__year-text--disabled {
+  color: #555 !important;       /* Dark grey */
+  opacity: 0.4 !important;      /* Faded look */
+  cursor: not-allowed !important;
+  pointer-events: none !important;
+}
+
+/* Optional: make today glow a little */
+.react-datepicker__day--today {
+  background-color: #222 !important;
+  color: #fff !important;
+  border-radius: 4px;
+}
